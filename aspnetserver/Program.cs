@@ -10,7 +10,7 @@ builder.Services.AddCors(options =>
         builder
         .AllowAnyMethod()
         .AllowAnyHeader()
-        .WithOrigins("http://localhost:3000", "http://appname.azurestaticapps.net");
+        .WithOrigins("http://localhost:3000", "https://thankful-mushroom-0cda9d30f.2.azurestaticapps.net");
     });
 });
 
